@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/site-icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Sofia's Homepage</title>
+</head>
+<body>
+   <!--========== HEADER ========-->
+   <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <!--<img src="" alt="sofia image">-->
+                sofia
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a> 
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+   </header>
+   <!--========== MAIN ========-->
+   <main class="main">
+        <!--========== HOME ========-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/halloween-cat.png" alt="cat image" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Hola!
+                    </h1>
+                    <p class="home__description">
+                        Mi nombre es Sofía y soy estudiante de Ingeniería de Software con mención en gestión de proyectos ágiles, actualmente cursando el
+                        tercer año de mi carrera.
+                    </p>
+                    <a href="#about" class="button">
+                        Conóceme <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--========== ABOUT ========-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                  <span class="section__subtitle">
+                    About me
+                  </span> 
+                  <h2 class="section__title about__title">
+                    Un poco sobre mi...
+                  </h2>
+                  <p class="about__description">
+                    Soy una apasionada estudiante con gran interés en el desarrollo de <strong>aplicaciones web</strong>. <br><br>
+                    A lo largo de mi carrera universitaria, he adquirido <strong>conocimientos básicos</strong> en: <br><br>
+                    > HTML, CSS, JavaScript, TypeScript, Angular, Vue.js<br>
+                    > Java, C#, Spring boot, ASP.NET, C++, Python <br>
+                    > SQL Server, MySQL<br><br>
+                    Además, tengo <strong>experiencia</strong> en: <br><br>
+                    > Control de versiones con Git y Github <br>
+                    > Uso de Jira y Trello <br>
+                    > Aplicación de metodologías ágiles y Scrum <br><br>
+                    Cuento también con habilidades blandas que me han permitido 
+                    desempeñar un rol destacado en mis proyectos universitarios.
+                  </p> 
+                </div>
+                <!--change this image later-->
+                <img src="assets/img/about-section.png" alt="about image" class="about__img">
+            </div>
+        </section>
+        <!--========== PROJECTS ========-->
+        <section class="projects section" id="projects">
+            <span class="section__subtitle">My projects</span>
+            <h2 class="section__title">Proyectos destacables</h2>
+            <div class="project__container container grid">
+                <article class="project__card">
+                    <img src="assets/img/projects.png" alt="project image" class="project__img">
+                    <h3 class="project__name">Project title</h3>
+                    <span class="project__description">Project description</span>
+                    <button class="project__button">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </article>
+                <article class="project__card">
+                    <img src="assets/img/projects.png" alt="project image" class="project__img">
+                    <h3 class="project__name">Project title</h3>
+                    <span class="project__description">Project description</span>
+                    <button class="project__button">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </article>
+                <article class="project__card">
+                    <img src="assets/img/projects.png" alt="project image" class="project__img">
+                    <h3 class="project__name">Project title</h3>
+                    <span class="project__description">Project description</span>
+                    <button class="project__button">
+                        <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+        <!--========== CONTACT ========-->
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <img src="assets/img/contact.png" alt="contact image" class="contact__img">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contact</span>
+                        <h2 class="section__title contact__title">
+                            Encuéntrame en...
+                        </h2>
+                        <p><strong>Email:</strong> alfaros.andrea@gmail.com</p>
+                        <div class="contact__buttons">
+                        <a href="https://github.com/asofialf" target="_blank" class="github__button">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/andrea-sofia-alfaro-salinas/" target="_blank" class="linkedin__button">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+   </main>
+   <!--========== FOOTER ========-->
+   <footer class="footer">
+    <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Made by Sofia Alfaro. All rights reserved
+            </span>
+        </div>
+   </footer>
+   <!--========== SCROOL UP  ========-->
+   <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+   </a>
+   <script src="assets/js/scrollreveal.min.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
