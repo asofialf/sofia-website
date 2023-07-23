@@ -605,6 +605,7 @@ body.dark-theme {
         grid-template-columns: 450px 360px;
         align-items: center;
         column-gap: 7rem;
+        margin-bottom: 10rem;
     }
     .contact__data, .contact .section__subtitle, .contact .section__title{
         text-align: initial;
